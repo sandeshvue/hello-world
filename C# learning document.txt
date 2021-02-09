@@ -1,0 +1,20 @@
+09-feb-2021
+
+5.coversion of datatypes: a} implicit conversion-- done by the compiler when there is no loss of data, means converting smaller to bigger data type but reverse case is not done implicitly.[done]
+                          b} explicit conversion-- typecast operator (int) before original type. we wont get exception if the source type value is larger than the destination type.[done]
+                                                -- Convert class-- we will get an exception if the source value greater. [done]
+						-- parse method is used to convert from string to other. throws an exception if it cannot parse the value. [done]
+						--tryparse returns an boolean value(true/false) depending upon the condition.[done]
+6.arrays and their decalaration, accessing the array elements.[done]
+7. Usage of ---if satement,switch,break,goto statement, while, do while loop, for loop.[done]
+8. Created github account and repository, gave access to you.[done]
+9. created branch,pull request. [done]
+10.Methods, method parameters. [done]
+11.Namespaces.(U/p)
+
+08-feb-2021
+1. Introduction to C#: Namespace,class, reading and writing(concatenation and place holder) to the Console.[done]
+2. Built in data types: Boolean, Integer, Float, string, escape sequence, verbatim laiteral.[done]
+3. Operators in C#: Assignment op,arithmatic op,comparision op,conditional op,ternary op, null coalescing op.[done]
+4. nullable data types: value types can't hold null value where as reference type can have null value.[done]
+                        in order to do value type to hv null use "?" next to type of date.[done]
