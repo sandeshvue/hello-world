@@ -1,3 +1,16 @@
+10-feb-2021
+11.Namespaces. [done]
+12. class--A class consists of data and behavior, whwere as data is represented by fields of the class
+	   behavior is represented by its functions/methods. [done]
+13.constructors and destructors-- constructors are used intialise the fields of the class.[done]
+				--this refers object/istance of a class.[done]
+				--destructors cleanup the resources that a class was holding. [done]
+14. static class members and instance--static members are invoked/calling by the name of the class itself.[done]
+15. Inheritence-- allows to reusage of code when required, reduces time and errors.[done]
+               --single class inheritance, i.e we cant have two base class.[done]
+16. Method handling. [done]
+17. polymorphism and method overloading [In progress]
+  
 09-feb-2021
 
 5.coversion of datatypes: a} implicit conversion-- done by the compiler when there is no loss of data, means converting smaller to bigger data type but reverse case is not done implicitly.[done]
