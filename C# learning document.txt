@@ -1,3 +1,24 @@
+11-feb-2021
+
+17.Polymorphism and method overloading. [done]
+18.method overiding--a base class reference varialbe pointing the child class object, will invoke the overridden method in the child class instead of method in the base class. 
+   method hiding --a base class reference varialbe pointing the child class object, will invoke the base class method.
+19.Method overloading--allowsa class to have multiple methods with the same same name, but with a different number/type /kind of parameters, 
+20.Properties-- get and set accessors to implement properties.
+             -- no need of using get()/set() methods if we are using properties.
+21. structs and classes-- struct-value type, class-refernce type.
+                       -- by copying a struct into another struct, a new copy of struct will create in the stack. modification made on one struct will not affect the value contained by the other struct.
+                       -- by copying a class into another class, both the reference varialbes will point to the same object in the heap. so by doing this value will get affect if any changes made to one of the  refered variable.
+22. Interfaces-- keyword "interface" is used to create interfaces. like classes it can have properties,methods. but we can only do declaration and no implementation.
+  	      -- it cannot have fields/variables.
+	      -- structs and class can inherit the interfaces. if inherited,then it must provide implementations for all interface members.
+              -- a class/struct acn inherit more than one interface at the same time.
+              -- if a interface2 inherits interface1 and if class1 inherits interface2, then class1 should provide implementation of all the members of interface1 and iterface2.
+23. Abstract class-- keyword abstract is used to create abstract class. we can only declare it and cannot be instantiable.
+24. Delegates--it is a safe type function pointer.(meaning the signature/type of the delegate should match with the signature of the class for which it is pointing to.
+             -- syntax access_modifier delegate return_type delegate_name(parameters)
+	     -- to point to a function, we hv to create an instance of the delegate and then we pass the function as parameter to it.(U/p)
+             
 10-feb-2021
 11.Namespaces. [done]
 12. class--A class consists of data and behavior, whwere as data is represented by fields of the class
