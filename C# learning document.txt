@@ -8,7 +8,7 @@
 14. static class members and instance--static members are invoked/calling by the name of the class itself.[done]
 15. Inheritence-- allows to reusage of code when required, reduces time and errors.[done]
                --single class inheritance, i.e we cant have two base class.[done]
-16. Method handling. [done]
+16. Method hiding. [done]
 17. polymorphism and method overloading [In progress]
   
 09-feb-2021
