@@ -1,3 +1,21 @@
+12-feb-2021
+25.Delegates usage in C#: Invoking/Calling a method using delegate
+					a) Declare a delegate with the same signature(return type, type of parameter)
+					as the method which i going to be invoked.
+					b) Create an instance of the delegate,pass the method as the parameter to constructor.
+					Finally by invoking the delegate one can invoke the method which is to be reuse.(done)
+					c) If we want pass a function as a parameter, can use delegates.(done)
+26.Exception handling : An exception is an error that occurs when a program is running.(dome)
+27.Enums: if a program uses set of integral numbers, replacing them with enums, will makes the program more readable, maintainable.(done)
+28.Acces Modifiers: a) private-- accessibility will be only with in the conatining class.
+				 b) public -- accessibility will any where, i.e. no restriction.
+				 c) protected-- accessibility will be with in the containing types and the types derived from the containing type.
+				 d) internal--accessibility will be anywhere in the containing assembly.
+				 e) protected internal--accessibility will be anywhere with in the containg assembly, and from with in a derived class in any another assembly.(done)
+29. Using visual studio: a) textbox creation to displpay in the messagebox.(done)
+                         b) tree view method of displaying. (done)
+
+
 11-feb-2021
 	17. Polymorphism and method overloading. [done]
 	18. Method overiding -- a base class reference varialbe pointing the child class object,
