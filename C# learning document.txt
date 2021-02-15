@@ -1,3 +1,24 @@
+15-feb-2021.
+30.Partial classes: Partial classes allow us to split a class into two or more files. this can also be use to split a struct or an interface by using a keyword "partial.".
+                  --All the parts/partial classes must have the keyword "partial".
+		  --These must have same access modifiers.
+		  --If any parts are declared as abstract, then whole type is considered as abstract.
+		  --If any part inherit a class, then whole type inherits the the class.
+		  --Any members that are declared in a partial definition are available to all other parts of the partial class.                       [Done]
+31.Partial methods: Partial class can have partial methods.
+                   --Partial method declaration will have the definition and implementation,may be in seperate parts/same part of a partial class.
+		   --Partial methods are private by default, should not use access modifier. private also we should not include.
+		   --Should not include declaration and implementation at the same time.
+		   --return type should be void.                                                                                                        [Done]
+32.Thread: Thread is a light weight process,where as process term used by operating system to carryon the execution of a program  by providing the required resources.
+             --Advantages: a)User interface will be fast.
+		           b)To make efficient usage of processing time, whilw waiting for other operations to complete.
+	     --Disadvantages: a)Multithreaded applications are difficult to write,understand,debug and maintain.	  
+		              b)Threading will affect performance negatively, since context-switching is overhead.
+	    --Threadstart Delegate: Thread is for executing a function, delegate is pointer to the function. so thread always requires a delegate to point the function,
+	      which a thread wants to execute.                                                                                                          [Done]
+33.Anonymous Methods: A method without name. this will allow us a way of creating delegate instances without having to write a seeperate method.        [Done]
+
 12-feb-2021
 25.Delegates usage in C#: Invoking/Calling a method using delegate
 					a) Declare a delegate with the same signature(return type, type of parameter)
