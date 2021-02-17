@@ -25,4 +25,56 @@ namespace WindowsFormsApp5
         }
     }
     
-    
+    ////
+    namespace WindowsFormsApp5
+{
+    public partial class Form1 : Form
+    {
+        public Form1()
+        {
+            InitializeComponent();
+            
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            FolderBrowserDialog BrowseFolders = new FolderBrowserDialog();
+            if (BrowseFolders.ShowDialog() == DialogResult.OK)
+            {
+                textBox1.Text = BrowseFolders.SelectedPath;
+            }
+            
+            TreeNode node = treeView1.Nodes.Add("{0}",textBox1.Text);
+
+            repeat();
+
+
+
+            void repeat()
+
+            {
+            
+          
+
+                    treeView1.Nodes[0].Nodes.Add("{0}", textBox1.Text);
+                treeView1.Nodes[0].Nodes[0].Nodes.Add("{0}", textBox1.Text);
+
+            }
+            
+
+           
+
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void treeView1_AfterSelect(object sender, TreeViewEventArgs e)
+        {
+
+        }
+    }
+}
+
