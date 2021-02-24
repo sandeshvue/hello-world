@@ -1,3 +1,23 @@
+24-feb-2021
+34.Tasks assigned till date: a)display of folders in treeview.                                                                        [Done]
+			  b)display of folders in treeview using recursive function.                                                  [Done]
+			  c)to find factorial of number using recursive function.                                                     [Done]
+			  d)display of folders inside a directory in treeview.                                                        [Done]
+35. Indexers: Indexers are used to retrieve the data from specific column while looping.                                              [Done]
+	     -- it allows the instances of classes to be inndexed as like arrays.                                                     [Done]  
+36.Optional parameters: Four ways that can be used to make function parameters optional
+			a) By using parameter array
+			b) By metod overloading
+			c)By mentioning the parameters by default
+			d)By using optional attribute that is present in namespace.                                                   [Done]
+37. Dictionary: A dictionary is a collection of key,value pairs. While creating a dictionary, key and value type should mention.
+               --Dictionary provides fast lookups for values using keys, these keys must be unique for their corresponding values.     [Done]
+38. List: List is one of the generic collection classes, it can be used to create a collection of any type(int,string etc)
+          -- the object stored in the list can be accessed by their corresonding index. its size can be altered automatically.
+          -- using this class lists can be sortable, can be manupulate.                                                                 [Done]
+
+
+
 15-feb-2021.
 30.Partial classes: Partial classes allow us to split a class into two or more files. this can also be use to split a struct or an interface by using a keyword "partial.".
                   --All the parts/partial classes must have the keyword "partial".
