@@ -1,3 +1,22 @@
+25-feb-2021
+38. List: List is one of the generic collection classes, it can be used to create a collection of any type(int,string etc)
+          -- the object stored in the list can be accessed by their corresonding index. its size can be altered automatically.
+          -- using this class lists can be sortable, can be manupulate.                                                                 
+          --find() method of the list  class loops through each object in the list untill match is found.
+	  so we can dictionary when you know the collection will be primarily used for lookups.                                          [Done]
+39.Generic queue collection class: Queue is a generic first in first out collection class that is present in namespace.
+                              --to add in to the queue enqueue() and to remove from the queue dequeue()
+			     --to check whether the item is present in the queue conatins() method is used.
+			     -- dequeue() method removes and returns the item at the begining of the queue.
+			   --peek() method returns the item at the begining of the queuue, without returning.                             [Done]
+40.Generic stack collection class:stack generic is last in first out collection class present in a namesapce.
+                          --the last item which is pushed to the stack, will be the first item to be popped from the satck.
+                          --to insert an item at the top of the stack push() method is used. same way to remove pop() method is used.     [Done]
+41.Anonymous Methods: A method without name. this will allow us a way of creating delegate instances without  writing a seeperate method. [Done]
+42.Lambda expression:(=>) Lambda operator is same as anonymous method, but here no need of mentioning delegate keyword explicitly and no need to specify 
+                          the input parameter type too.
+			--Lambda expressions are helpful to writing LINQ query expressions.                                               [Done]
+			
 24-feb-2021
 34.Tasks assigned till date: a)display of folders in treeview.                                                                        [Done]
 			  b)display of folders in treeview using recursive function.                                                  [Done]
@@ -11,10 +30,8 @@
 			c)By mentioning the parameters by default
 			d)By using optional attribute that is present in namespace.                                                   [Done]
 37. Dictionary: A dictionary is a collection of key,value pairs. While creating a dictionary, key and value type should mention.
-               --Dictionary provides fast lookups for values using keys, these keys must be unique for their corresponding values.     [Done]
-38. List: List is one of the generic collection classes, it can be used to create a collection of any type(int,string etc)
-          -- the object stored in the list can be accessed by their corresonding index. its size can be altered automatically.
-          -- using this class lists can be sortable, can be manupulate.                                                                 [Done]
+--Dictionary provides fast lookups for values using keys, these keys must be unique for their corresponding values.     [Done]
+
 
 
 
