@@ -1,3 +1,40 @@
+26-feb-2021
+
+Git commands:
+a) git init: This command is used to intialise a blank repository. it creates a .git folder in the current working directory.                 [Done]
+b) git commit : This comand is used to save the changes to the local repository. The command helps us to keep record of all the changes made. [Done]
+c) git add : This command is used to add changes in the current directory to the staging area.                                                [Done]
+d) git stautus : This command is used to display the state of the current repository and the staging area.                                    [Done]
+e) git merge: This command is used to integrate different branches into a single branch.                                                      [Done]
+f) git push:This command is used to upload the content from the local repository to the remote repository.                                    [Done]
+g) git pull: This command is used to fetch the new commits and merge them into the local branch.                                              [Done]
+h) git clone: This command is used to create a copyof the target repository or create a clone in a new directory at a new place.              [Done]
+i) git branch: This command is used to create ,list,rename, and delete branches. Branch refers to an independent line of development.          [Done]
+j) git check-out: This command is used to enable the navigation between the branches, this command works together with the git branch command. [Done]
+
+
+sql server management studio
+1. Connwct to the SQL server using SSMS                                                                                                                             [Done]
+2. Create,altering and dropping/delete a data base:                                                                                                                 [Done]
+                                    -- This can be done using two options
+                                     a) Graphically using SSMS
+				     b) Using Query--  Create database DatabaseName
+				     --After creating the database, two files will get generate.
+        			     a).MDF file-Data Files(which contains actual data)--Master data file.
+				    b).LDF file-Transaction log file(used to recover the database)--Log data file.
+				    --To alter a database name using query-(Alter Database DatabaseName Modify Name=Newdatabasename)
+3)creating tables and detailed operations: Tables can be created graphically using SSMS and using query as well.                                                     [Done]
+                                   -- foreign keys are used to enforce database integrity, which will point toa primary key in another table.
+				   --Foriegn key constraints prevents invalid data form being inserted into the foreign key column.
+4)Adding default constraint: A column default can be specified using Default constraint. The DEFAULT constraint is used to insert a default value into a column.      [Done]
+                            If the value is not specified, then default value itself will be added to all new records.
+5)Cascading referential integrity constraint: This will allows to define the actions taken by sql server, when a user tries to delete/update a key for an              [Done]
+                                            already existing foriegn key is pointing to.
+6)Adding check constraints: Check constraints is used to restrict the range of the value, that can be entered for a column.                                             [Done]
+                          -- add constraint {constraint_name} check (boolean_expression)
+                          -- in the above format if the boolean expression returns true, then the check constraint allows the value, unless it will not.			7)Identity column, its details. how to get the last generated identity column value.                                                                                     [Done]
+8)Unique key constraints.                                                                                                                                               [Done]
+
 25-feb-2021
 38. List: List is one of the generic collection classes, it can be used to create a collection of any type(int,string etc)
           -- the object stored in the list can be accessed by their corresonding index. its size can be altered automatically.
