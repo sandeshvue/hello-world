@@ -1,3 +1,20 @@
+03-Mar-2021
+
+9. select statements: how to select specific columns, distinct rows,  wild cards. usage of AND,OR operators.                             [DONE]
+10.Group by: How to use "group by" to group rows, filtering of groups, difference between keywords WHERE and HAVING.                     [DONE]
+11.Joins: Types of joins, details of cross join, inner join and outer join.
+          --Retrieve only the non matching rows from the tables.
+          --self join: joining the table with itself. its classification as inner self join, outer self join and cross self join.        [DONE]
+12.Ways to replace Null values: isnull(), case statement and coalesce.                                                                   [DONE]	
+13. Usage of union and union all operators, and differences between them.                                                                [DONE]
+14. Stored procedure: instead of writing the same query repeatedly, we can make use of stored procedures.
+                     -- stored procedure with output parameters or return values.
+                     -- Advantages of stored procedures.                                                                                 [DONE]
+15.Built in string functions and their usage: ASCII,CHAR,LTRIM,RTRIM,LOWER,UPPER,REVERSE and LEN functions.                              [DONE]
+16. Practising of writing query to create datbase,tables. Altering the data fields of the tables in a database                           [DONE]
+17. Grid view of tables                                                                                                                   [I/P]
+
+
 26-feb-2021
 
 Git commands:
