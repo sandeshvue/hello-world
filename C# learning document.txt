@@ -1,3 +1,50 @@
+Till 11-march-2021
+sql server management studio
+1. Connwct to the SQL server using SSMS
+2. Create,altering and dropping/delete a data base:
+                                    -- This can be done using two options
+                                     a) Graphically using SSMS
+				 b) Using Query--  Create database DatabaseName
+				 --After creating the database, two files will get generate.
+				 a).MDF file-Data Files(which contains actual data)--Master data file.
+				b).LDF file-Transaction log file(used to recover the database)--Log data file.
+				--To alter a database name using query-(Alter Database DatabaseName Modify Name=Newdatabasename)
+3)creating tables and detailed operations: Tables can be created graphically using SSMS and using query as well.
+                                   -- foreign keys are used to enforce database integrity, which will point toa primary key in another table.
+								   --Foriegn key constraints prevents invalid data form being inserted into the foreign key column.
+4)Adding default constraint: A column default can be specified using Default constraint. The DEFAULT constraint is used to insert a default value into a column. 
+                            If the value is not specified, then default value itself will be added to all new records.
+5)Cascading referential integrity constraint: This will allows to define the actions taken by sql server, when a user tries to delete/update a key for an
+                                            already existing foriegn key is pointing to.
+6)Adding check constraints: Check constraints is used to restrict the range of the value, that can be entered for a column.
+                          -- add constraint {constraint_name} check (boolean_expression)
+                          -- in the above format if the boolean expression returns true, then the check constraint allows the value, unless it will not.				
+7)Identity column, its details. how to get the last generated identity column value.
+8)Unique key constraints
+9. select statements: how to select specific columns, distinct rows,  wild cards. usage of AND,OR operators.
+10.Group by: How to use "group by" to group rows, filtering of groups, difference between keywords WHERE and HAVING.
+11.Joins: Types of joins, details of cross join, inner join and outer join.
+          --Retrieve only the non matching rows from the tables.
+          --self join: joining the table with itself. its classification as inner self join, outer self join and cross self join.
+12.Ways to replace Null values: isnull(), case statement and coalesce()		
+13. Usage of union and union all operators, and differences between them.
+14. Stored procedure: instead of writing the same query repeatedly, we can make use of stored procedures.
+                     -- stored procedure with output parameters or return values.
+                     -- Advantages of stored procedures.
+15.Built in string functions and their usage: ASCII,CHAR,LTRIM,RTRIM,LOWER,UPPER,REVERSE and LEN functions.	
+16.few more built in functions and their usage: LEFT(),RIGHT() CHARINDEX(), SUBSTING().
+17. REPLICATE, SPACE, PATINDEX, REPLACE, STUFF built-in string functions.
+18.DateTime functions: DateTime data types, functions. UTC time and Time Zone offset.
+19.CAST and CONVERT functions and their usage.
+20. Mathematical functions : Abs, Ceiling, Floor, Power, Rand, Square, Sqrt, Round.
+21. User defined functions: Scalar functions, Inline table-valued functions, Multi-statement table-valued functions.
+22. Deterministic and Nondeterministic functions, Encrypting functions, Schema binding functions.
+23. Temporary tables: These are the tables get created in the TempDB and are automatically deleted, when they are no longer used.
+                     --local temporary tables and global temporary tables.
+24.Indexers: These are used by queries to find data from tables quickly. 
+            --Clustered, Nonclustered, Unique, Filtered, XML, Full Text, Spatial, Columnstore,Index with include columns, Index on computed columns.
+25. View: View is a saved SQL query. It can also be considered as virtual table..
+			
 03-Mar-2021
 
 9. select statements: how to select specific columns, distinct rows,  wild cards. usage of AND,OR operators.                             [DONE]
