@@ -1,3 +1,5 @@
+16-march-2021
+
 Git : Version control sysytem. Here we can store our data in cloud and can sync to our local computer.			
 GitHub : Cloud storage with full fledge version control system.
 Git Commands: 
@@ -21,3 +23,7 @@ git help
 NuGet is the official package manager for .NET
 --it is a visual studio extension which helps us to search,locate the library,
   download them,reference them in our visual studio project and also make appropriate changes to APP and Web config files.
+  
+  SSDT- SQL server data tool
+--transforms database development by introducing a common, declarative model that spans all the phases of database development inside Visual Studio.
+ You can use SSDT Transact-SQL design capabilities to build, debug, maintain, and refactor databases.
