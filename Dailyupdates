@@ -1,0 +1,23 @@
+Git : Version control sysytem. Here we can store our data in cloud and can sync to our local computer.			
+GitHub : Cloud storage with full fledge version control system.
+Git Commands: 
+git clone "directory of the folders"
+git add-- add files to staging area.
+git comit-- comits our data into local version control database.
+git push-- stores the data into the cloud.
+git difftool--allows us to access the difference done to the data
+
+
+ls list all the files from default path
+cd change the directory
+git init git initialisation
+git remote add origin link
+git remote -v to check the access for fetc and push
+git add . uploads all the files stage in the directory ready to push
+git comit -m "comment" to save all the changes
+git push origin master to push the files into the repository
+git help
+
+NuGet is the official package manager for .NET
+--it is a visual studio extension which helps us to search,locate the library,
+  download them,reference them in our visual studio project and also make appropriate changes to APP and Web config files.
