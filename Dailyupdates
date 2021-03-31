@@ -1,3 +1,100 @@
+31/march/to learn
+triggers,
+stored procedures.
+sql server integrated services.
+sql server reporting services.
+
+
+
+Git : Version control sysytem. Here we can store our data in cloud and can sync to our local computer.			
+GitHub : Cloud storage with full fledge version control system.
+Git Commands: 
+git clone "directory of the folders"
+git add-- add files to staging area.
+git comit-- comits our data into local version control database.
+git push-- stores the data into the cloud.
+git difftool--allows us to access the difference done to the data
+
+
+ls list all the files from default path
+cd change the directory
+git init git initialisation
+git remote add origin link
+git remote -v to check the access for fetc and push
+git add . uploads all the files stage in the directory ready to push
+git comit -m "comment" to save all the changes
+git push origin master to push the files into the repository
+git help
+
+NuGet is the official package manager for .NET
+--it is a visual studio extension which helps us to search,locate the library,
+  download them,reference them in our visual studio project and also make appropriate changes to APP and Web config files.
+
+SSDT- SQL server data tool
+--transforms database development by introducing a common, declarative model that spans all the phases of database development inside Visual Studio.
+ You can use SSDT Transact-SQL design capabilities to build, debug, maintain, and refactor databases.
+ 
+ 
+ https://www.youtube.com/watch?v=NX8-LhgFnUU
+ 
+ WPF: Windows Presentation Foundation.
+ The idea behind introduction of WPF was that user can develop rich user interface with minimum code complexity.
+ wpf : isa a UI
+ 
+ Easy to unit test.
+No need to change model to support changes in View.
+Very minor changes required in ViewModel to support changes in View.
+Separates UX designer and developer i.e the development team can focus on creating ViewModel classes, and the design team can focus on making user-friendly Views.
+
+
+
+Xaml.cs---view 
+
+config  head
+git init create empty repository int the folders
+git remote add origin links with the local 
+
+git init
+add .ignore
+
+c# basics
+oops concepts.
+ssdt 4,6.
+microsoft docs.
+overriding overloading 
+
+
+Inheritance: reusability of base/parent class code in the derived class.
+base class reference varialble can point to child class object.
+
+polymorphism: enalbles us to invoke derived class methods through base class reference variable at run time.
+
+Method overloading: method can be overloaded based on the number,type(int,float etc) and kind (value,ref or output) of parameters into it.
+https://www.c-sharpcorner.com/UploadFile/mkagrahari/introduction-to-object-oriented-programming-concepts-in-C-Sharp/#:~:text=Introduction%20to%20Object%20Oriented%20Programming%20Concepts%20in%20C%23,a%20class%20for%20representing%20data.%20More%20items...%20
+https://www.youtube.com/watch?v=lx2tSY4joDg
+interfaces:
+reflection in .net
+target platform, build platform in .net 
+
+static 
+manifest in assembly file
+ref and out -- here intialisation is not required
+native code, managed code, unmanaged code
+exceptions priority
+tutorilateachers
+stringbuilder/ string mutable imutable
+
+DLL list creator project:
+This code will fetch the .dll files present in the pre-defined diirectory, and will create a file 
+of predefined format inside the predefined directory.
+Parallely a table will get create(columns will create). Respected record will be addes into the columns.
+
+Architecture project:
+This code will print two strings ("x64" , "x86") using console.writeline function by passing 
+the get property as a parameter into it.
+
+const readonly
+
 16-march-2021
 
 Git : Version control sysytem. Here we can store our data in cloud and can sync to our local computer.			
